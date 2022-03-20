@@ -59,14 +59,14 @@
                     <button type="button" class="hero-btn btn" data-modal-open>Заказать услугу</button>
 
                     <!-- Hero Modal Window -->
-                    <div class="backdrop is-hidden" data-modal>
+                    <div class="backdrop " data-modal>
                         <div class="modal">
                             <button type="button" class="close-btn btn" data-modal-close>
                                 <svg class="close-black-icon">
                                     <use href="./images/icons.svg#icon-close-black"></use>
                                 </svg>
                             </button>
-<!-- Form-modal -->
+<!-- Form-modal -->is-hidden
                             
                             <form class="form">
                                 <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
@@ -102,14 +102,21 @@
 
                                 <label class="checkbox-field">
                                     <input type="checkbox" name="policy" class="checkbox">
+                
                                     <span class="checkbox-icon">
+                                        <span class="icon-unchecked"></span>
+                                        <svg class="icon-checked" width="16" height="15">
+                                            <use href="./images/icons.svg#icon-check-on"></use>
+                                        </svg>
+                                    </span>
+                                    <!-- <span class="checkbox-icon">
                                         <svg class="checkbox-icon-on">
                                             <use href="./images/icons.svg#icon-check-on"></use>
                                         </svg>
                                         <svg class="checkbox-icon-off">
                                             <use href="./images/icons.svg#icon-check-off"></use>
                                         </svg>
-                                    </span>
+                                    </span> -->
                                     <span class="checkbox-label">Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-label-link link">Условия договора</a></span>
                                     
                                 </label>
