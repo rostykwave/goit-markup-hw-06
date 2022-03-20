@@ -324,8 +324,6 @@ img {
 .form-field {
   position: relative;
   display: block;
-  /* display: flex;
-  flex-direction: column; */
 
   margin-bottom: 28px;
 
@@ -345,8 +343,11 @@ img {
 .form-input,
 .form-input-textarea {
   width: 100%;
+  height: 40px;
   margin: 0;
-  padding: 12px 16px 12px 42px;
+  /* padding: 11px 15px 11px 41px; */
+  padding-left: 42px;
+  padding-right: 16px;
 
   font-size: 14px;
   line-height: 1.14;
@@ -369,6 +370,7 @@ img {
 
 .form-input-textarea {
   resize: none;
+  height: 120px;
 
   padding: 12px 16px;
 }
@@ -831,8 +833,11 @@ img {
 }
 .footer-column {
   display: flex;
-  padding: 60px 0;
   align-items: baseline;
+  /* justify-content: space-between; */
+
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* Footer column 1 */
@@ -918,7 +923,7 @@ img {
 }
 
 .footer-form {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .footer-form-field {
   display: inline-block;
@@ -926,7 +931,9 @@ img {
 }
 .footer-form-input {
   width: 100%;
-  padding: 15px 16px;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0;
 
   font-size: 16px;
